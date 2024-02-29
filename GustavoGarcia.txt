@@ -1,0 +1,50 @@
+cd ..
+md backup
+dir
+cd backup
+cd ..
+copy atividade01 backup
+del /s /q
+del /s /q atividade01
+doskey/h
+cls
+dosky/h
+doskey/h
+cls[
+cd atividade01
+md atividade01
+cls
+ren atividade01 trabalhos
+dir
+md documentos
+dir
+cd documentos
+doskey/h
+cls
+md projetos
+md pessoais
+dir
+cd .. 
+move trabalhos documentos
+cd documentos
+dir
+cls
+cd ..
+move backup documentos
+cd documentos
+ren pessoais lazer
+dor
+dir
+doskey/h
+echo Inglaterra >>viagem.txt
+dir
+echo franca >>viagem.txt
+echo espanha >>viagem.txt
+echo alemanha >>viagem.txt
+echo italia >>viagem.txt
+cd viagem.txt
+move viagem.txt lazer
+dir
+cd lazer
+dir
+doskey/history >>GustavoGarcia.txt
